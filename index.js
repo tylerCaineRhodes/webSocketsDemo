@@ -18,5 +18,9 @@ io.on('connection',(socketId) => {
   socketId.on('chat', (data) => { 
     io.sockets.emit('chat', data); 
   });
+
+  socketId.on('typing', (data) => {
+    socketId.broadcast.emit('typing', data)
+  })
 });
 

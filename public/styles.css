@@ -16,10 +16,18 @@ html {
   overflow: auto;
 }
 
-#output {
+#output p {
   padding: 14px 0px;
   margin: 0 20px;
   color: #555;
+}
+
+
+#feedback p {
+  font-size: 16px;
+  color: grey;
+  padding: 14px 0px;
+  margin: 0 20px;
 }
 
 input {
@@ -27,7 +35,6 @@ input {
   padding: 10px 20px;
   display: block;
   width: 100%;
-  /* border-bottom: 1px solid #eee; */
   font-size: 16px;
 }
 
